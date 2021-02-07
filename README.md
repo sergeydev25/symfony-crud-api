@@ -1,6 +1,7 @@
-# Symfony sample crud api
+# Symfony crud api for
 
-### Configure
+php 7.4
+#### Configure
 `cp -rp .env.example .env` configure db connection
 
 `composer install`
@@ -9,7 +10,7 @@
 
 `php bin/console doctrine:migrations:migrate`
 
-### Run
+#### Run
 `php -S 127.0.0.1:8000 -t public/`
 
 #### Swagger
